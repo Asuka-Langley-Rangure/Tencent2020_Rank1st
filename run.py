@@ -127,6 +127,7 @@ if __name__ == "__main__":
     
     #输出结果
     accs=[]
+    print("Output results")
     for f,num in [('age',10),('gender',2)]:
         model.reload(f)
         if f=="age":
